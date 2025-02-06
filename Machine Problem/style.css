@@ -1,0 +1,185 @@
+body{
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.slide-box {
+    width: 40%;
+    height: 30%;
+    text-align: center;
+    position: absolute;
+    top: -100px;
+    left: 45%;
+    transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out, background-color 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 30px;
+}
+
+.slide-box.show {
+    top: 33%;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.left-side {
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.monday{
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 5px 8px 5px 8px;
+
+}
+
+.monday button{
+    background-color: beige;
+}
+
+.monday button:hover{
+    color: #4b4d4f;
+    background-color: #EC72AB;
+}
+
+.tuesday{
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 5px 8px 5px 8px;
+}
+
+.tuesday button{
+    background-color: beige;
+}
+
+.tuesday button:hover{
+    color: #4b4d4f;
+    background-color: #FB81BA;
+}
+
+.wednesday{
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 5px 8px 5px 8px;
+}
+
+.wednesday button{
+    background-color: beige;
+}
+
+.wednesday button:hover{
+    color: #4b4d4f;
+    background-color: #FE97AC;
+}
+
+.thursday{
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 5px 8px 5px 8px;
+}
+
+.thursday button{
+    background-color: beige;
+}
+
+.thursday button:hover{
+    color: #4b4d4f;
+    background-color: #FEA8A9;
+}
+
+.friday{
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 5px 8px 5px 8px;
+}
+
+.friday button{
+    background-color: beige;
+}
+
+.friday button:hover{
+    color: #4b4d4f;
+    background-color: #FEC4B9;
+}
+
+.saturday{
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 5px 8px 5px 8px;
+}
+
+.saturday button{
+    background-color: beige;
+}
+
+.saturday button:hover{
+    color: #4b4d4f;
+    background-color: #FED7D0 ;
+}
+
+.sunday{
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 5px 8px 5px 8pxj;
+}
+
+.sunday button{
+    background-color: beige;
+}
+
+.sunday button:hover{
+    color: #4b4d4f;
+    background-color: #FFB6C1;
+}
+
+button{
+    width: 70%;
+    height: 50px;
+    border-color: #f5A7D1;
+    border-radius: 10px;
+}
+
+.right-side{
+    border: 2px solid;
+    width: 20%;
+    height: auto;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
