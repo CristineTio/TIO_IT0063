@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristine Joy Restaurant</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-red bg-red">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="Cristine_Joy_Logo-removebg-preview.png" alt="Restaurant Logo" height="40" class="me-2">
+                Cristine Joy Restaurant
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero py-5">
+        <div class="container text-center">
+            <h1 class="display-4">Exquisite Dining Experience</h1>
+            <p class="lead">Explore our carefully crafted menu selections</p>
+            <a href="#menu" class="btn btn-primary btn-lg mt-3">View Menu</a>
+        </div>
+    </header>
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Menu</h2>
+            
+            <ul class="nav nav-pills mb-4 justify-content-center" id="menuTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="appetizers-tab" data-bs-toggle="pill" data-bs-target="#appetizers" type="button" role="tab">Appetizers</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="mains-tab" data-bs-toggle="pill" data-bs-target="#mains" type="button" role="tab">Main Courses</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="desserts-tab" data-bs-toggle="pill" data-bs-target="#desserts" type="button" role="tab">Desserts</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="drinks-tab" data-bs-toggle="pill" data-bs-target="#drinks" type="button" role="tab">Drinks</button>
+                </li>
+            </ul>
+            
+            <!-- Menu Items -->
+            <div class="tab-content" id="menuTabContent">
+                <!-- Appetizers -->
+                <div class="tab-pane fade show active" id="appetizers" role="tabpanel">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item" data-item-id="1">
+                                <img src="bruschetta.jpeg" class="card-img-top" alt="Bruschetta">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bruschetta <span class="badge bg-info">₱300</span></h5>
+                                    <p class="card-text">Toasted bread topped with fresh tomatoes, basil, and olive oil</p>
+                                    <button class="btn btn-outline-primary btn-sm view-details">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item" data-item-id="2">
+                                <img src="calamari.jpeg" class="card-img-top" alt="Calamari">
+                                <div class="card-body">
+                                    <h5 class="card-title">Calamari <span class="badge bg-info">₱450</span></h5>
+                                    <p class="card-text">Crispy fried calamari served with marinara sauce</p>
+                                    <button class="btn btn-outline-primary btn-sm view-details">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item" data-item-id="3">
+                                <img src="spinach_dip.jpeg" class="card-img-top" alt="Spinach Artichoke Dip">
+                                <div class="card-body">
+                                    <h5 class="card-title">Spinach Artichoke Dip <span class="badge bg-info">₱200</span></h5>
+                                    <p class="card-text">Creamy dip with spinach, artichokes, and melted cheese</p>
+                                    <button class="btn btn-outline-primary btn-sm view-details">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <footer class="py-4 bg-dark text-light text-center">
+        <div class="container">
+            <p>&copy; 2023 Fine Dining Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
